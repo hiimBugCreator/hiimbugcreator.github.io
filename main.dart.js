@@ -61489,7 +61489,7 @@ if(b===B.dP)return B.Is
 else{s=this.b
 r=s.a
 s=s.b
-if(r/2>s*1.2)return B.BY
+if(r/2>s*1.2&&!0)return B.BY
 else{q=t.wN
 p=A.ago(A.a([new A.D7(B.uj)],q),B.CV,!1,!0,s,0.9,2,1,r,0,0.5,2,0,0,B.vb).zw(A.dP(r*2))
 s=new A.wU(A.a([],q),A.a([],t.W),p,B.x,new A.np(A.h(r)+"-"+A.h(s),t.kK))
