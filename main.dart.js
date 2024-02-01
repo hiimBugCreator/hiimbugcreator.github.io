@@ -53983,7 +53983,7 @@ s=s<10?"0"+p:p
 o.d=r+" : "+q+" : "+s
 A.acz(B.cJ,new A.a2a(o))},
 MU(){if(this.c!=null)this.ar(new A.a29(this))},
-S(b6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0=null,b1="mailto:loc.vuhuyvn@gmail.com",b2="images/chillarrow.svg",b3="Louis Vu",b4=A.er(b6,b0,t.w).w.a,b5=this.d
+S(b6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0=null,b1="mailto:loc.vuhuyvn@gmail.com",b2="assets/images/chillarrow.svg",b3="Louis Vu",b4=A.er(b6,b0,t.w).w.a,b5=this.d
 b5===$&&A.f()
 b5=A.mq(b5,b0,A.yq().$3$color$fontSize$fontWeight(b0,50,B.N),b0)
 s=this.f
@@ -54021,11 +54021,11 @@ b5=b4.a
 q=b5*0.02
 p=b4.b
 d=p*0.01
-d=A.oo(A.a([A.e2(b0,b0,q),A.hy(A.a([new A.lx("images/cv.svg",b1,"See my r\xe9sume",b4,b0),new A.lF(d,b0),new A.lx("images/gmail.svg",b1,"Sent mail for me",b4,b0),new A.lF(d,b0),new A.lx("images/linkedin.svg","https://www.linkedin.com/in/louis-vu-9857a91ab","Come to my Linkedin",b4,b0),new A.lF(d,b0),new A.lx("images/github.svg","https://github.com/hiimBugCreator?tab=repositories","Visit my repositories on Github",b4,b0),new A.lF(p*0.03,b0)],r),B.nW,B.O)],r),B.a7,B.O)
+d=A.oo(A.a([A.e2(b0,b0,q),A.hy(A.a([new A.lx("assets/images/cv.svg",b1,"See my r\xe9sume",b4,b0),new A.lF(d,b0),new A.lx("assets/images/gmail.svg",b1,"Sent mail for me",b4,b0),new A.lF(d,b0),new A.lx("assets/images/linkedin.svg","https://www.linkedin.com/in/louis-vu-9857a91ab","Come to my Linkedin",b4,b0),new A.lF(d,b0),new A.lx("assets/images/github.svg","https://github.com/hiimBugCreator?tab=repositories","Visit my repositories on Github",b4,b0),new A.lF(p*0.03,b0)],r),B.nW,B.O)],r),B.a7,B.O)
 c=p*0.45
 b=p*0.05
 a=b5*0.07
-c=A.hy(A.a([A.e2(new A.ey(new A.bo(b5*0.03,0,0,0),A.kq(B.aK,A.a([new A.FG(B.h7,!0,A.a72("images/my.jpeg",B.vr),A.e2(A.YG("images/blob.svg"),c,b5*0.35),b0),A.D_(b0,A.hy(A.a([A.ZX(-0.6100179909883093,A.oo(A.a([A.e2(A.YG(b2),b,a),A.ZX(0.4363323129985824,new A.ey(B.iC,A.hA(b0,A.mq(b3,b0,A.yq().$3$color$fontSize$fontWeight(b0,q,b0),b0),B.zI,b0,b0,b0,b0,b0),b0))],r),B.a7,B.O))],r),B.a7,B.O),p*0.1,b0,b0,b5*0.165,b,b0),A.D_(b,A.hy(A.a([A.ZX(0.6100179909883093,A.oo(A.a([A.e2(A.YG(b2),b,a)],r),B.a7,B.O))],r),B.a7,B.O),b0,b0,b0,b5*0.25,b0,b0),A.D_(b,A.hy(A.a([A.ZX(-0.04321,new A.ey(B.iC,A.hA(b0,A.hy(A.a([A.mq("Mobile Developer",b0,A.yq().$3$color$fontSize$fontWeight(b0,q,b0),b0),A.mq("(Flutter - Android)",b0,A.yq().$3$color$fontSize$fontWeight(b0,q,b0),b0)],r),B.a7,B.O),B.il,b0,b0,b0,b0,b0),b0))],r),B.a7,B.O),b0,b0,b0,b5*0.08,b0,b0)],r),B.b2,b0),b0),c,b5*0.6)],r),B.eN,B.O)
+c=A.hy(A.a([A.e2(new A.ey(new A.bo(b5*0.03,0,0,0),A.kq(B.aK,A.a([new A.FG(B.h7,!0,A.a72("assets/images/my.jpeg",B.vr),A.e2(A.YG("assets/images/blob.svg"),c,b5*0.35),b0),A.D_(b0,A.hy(A.a([A.ZX(-0.6100179909883093,A.oo(A.a([A.e2(A.YG(b2),b,a),A.ZX(0.4363323129985824,new A.ey(B.iC,A.hA(b0,A.mq(b3,b0,A.yq().$3$color$fontSize$fontWeight(b0,q,b0),b0),B.zI,b0,b0,b0,b0,b0),b0))],r),B.a7,B.O))],r),B.a7,B.O),p*0.1,b0,b0,b5*0.165,b,b0),A.D_(b,A.hy(A.a([A.ZX(0.6100179909883093,A.oo(A.a([A.e2(A.YG(b2),b,a)],r),B.a7,B.O))],r),B.a7,B.O),b0,b0,b0,b5*0.25,b0,b0),A.D_(b,A.hy(A.a([A.ZX(-0.04321,new A.ey(B.iC,A.hA(b0,A.hy(A.a([A.mq("Mobile Developer",b0,A.yq().$3$color$fontSize$fontWeight(b0,q,b0),b0),A.mq("(Flutter - Android)",b0,A.yq().$3$color$fontSize$fontWeight(b0,q,b0),b0)],r),B.a7,B.O),B.il,b0,b0,b0,b0,b0),b0))],r),B.a7,B.O),b0,b0,b0,b5*0.08,b0,b0)],r),B.b2,b0),b0),c,b5*0.6)],r),B.eN,B.O)
 b=b5*0.4
 a=A.hA(B.af,b0,b0,new A.dl(B.e9,b0,b0,A.O7(20),b0,b0,B.au),b0,b0,b0,b)
 a0=A.O7(20)
