@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="My Flutter project.">
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="portfolio">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <title>Louis's Portfolio</title>
+    <link rel="manifest" href="manifest.json">
+    <script>
+         // The value below is injected by flutter build, do not touch.
+         const serviceWorkerVersion = "24372559";
+
+      </script>
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+</head>
+<body>
+<div id="loading"></div>
+<script>
+         window.addEventListener('load', function(ev) {
+         var htmlText = `
+                      <div class="loading-container">
+          <div class="loading-text">
+              <span>Louis's</span>
+              <span>Portfolio</span>
+          </div>
+         </div>
+         <style type="text/css">
+         * {
+         box-sizing: border-box;
+         }
+
+         body {
+         width: 100%;
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family: 'Montserrat', sans-serif;
+         overflow: hidden;
+         }
+
+         .loading-container {
+         width: 100%;
+         max-width: 520px;
+         text-align: center;
+         color: #000;
+         position: relative;
+         margin: 0 32px;
+
+         &:before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 3px;
+          background-color: #000;
+          bottom: 0;
+          left: 0;
+          border-radius: 10px;
+          animation: movingLine 2.4s infinite ease-in-out;
+         }
+         }
+
+         @keyframes movingLine {
+         0% {
+          opacity: 0;
+          width: 0;
+         }
+
+         33.3%, 66% {
+          opacity: 0.8;
+          width: 100%;
+         }
+
+         85% {
+          width: 0;
+          left: initial;
+          right: 0;
+          opacity: 1;
+         }
+
+         100% {
+         opacity: 0;
+         width: 0;
+         }
+         }
+
+         .loading-text {
+         font-size: 5vw;
+         line-height: 64px;
+         letter-spacing: 10px;
+         margin-bottom: 32px;
+         display: flex;
+         justify-content: space-evenly;
+         span {
+          animation: moveLetters 2.4s infinite ease-in-out;
+          transform: translatex(0);
+          position: relative;
+          display: inline-block;
+          opacity: 0;
+          text-shadow: 0px 2px 10px rgba(46, 74, 81, 0.3);
+         }
+         }
+
+         @for $i from 1 through 7 {
+         .loading-text span:nth-child(#{$i}) {
+          animation-delay: $i * 0.1s;
+         }
+         }
+
+         @keyframes moveLetters {
+         0% {
+          transform: translateX(-15vw);
+          opacity: 0;
+         }
+
+         33.3%, 66% {
+          transform: translateX(0);
+          opacity: 1;
+         }
+
+         100% {
+          transform: translateX(15vw);
+          opacity: 0;
+         }
+         }
+         </style>
+                  `;
+                  const cdiv =  document.querySelector('div');
+                  cdiv.classList.remove('indeterminate');
+           var loading = document.querySelector('#loading');
+           loading.innerHTML = htmlText;
+           _flutter.loader.loadEntrypoint({
+             serviceWorker: {
+               serviceWorkerVersion: serviceWorkerVersion,
+             },
+             onEntrypointLoaded: async function(engineInitializer) {
+               let appRunner = await engineInitializer.initializeEngine();
+               await appRunner.runApp();
+             }
+           });
+         });
+      </script>
+</body>
+<style type="text/css">
+         .indeterminate {
+         position: relative;
+         width: 100%;
+         height: 100%;
+         background-color: #FFFFFF;
+         }
+         .indeterminate:before {
+         content: '';
+         position: absolute;
+         height: 100%;
+         background-color: #FFFFFF;
+         animation: indeterminate_first 2.0s infinite ease-out;
+         }
+         .indeterminate:after {
+         content: '';
+         position: absolute;
+         height: 100%;
+         background-color: #FFFFFF;
+         animation: indeterminate_second 2.0s infinite ease-in;
+         }
+      </style>
+</html>
